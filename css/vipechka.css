@@ -1,0 +1,199 @@
+body{
+    background-color: #9fc7aa;
+}
+#cupcakes{
+    margin-top: 10%;
+}
+.cupcake img{
+    width: 47%;
+    height: 47%;
+    margin:2%;
+    margin-top: 4%;
+    transition: 0.5s;
+}
+.cupcake:hover{
+font-size: larger;
+}
+.cupcake{
+    display: flex;
+    justify-content: space-between;
+}
+.cupcake{
+    padding: 3%;
+    margin: 7% 0 7% 0;
+}
+.cupcakes-text{
+    width: 50%;
+    font-size: xx-large;
+  margin-top: 3%;
+    text-align: center;
+}
+.cupcakes-text p {
+padding-left:20%;
+}
+button{
+    width: 25%;
+    height: 8%;
+    border-radius: 30px;
+    background:  transparent;
+    border: 2px solid #ffffff;
+    color: #000;
+    transition: 0.5s;
+    background-color: #fff;
+    text-decoration: none;
+    font-size: medium;
+}
+button:hover{
+    background-color: #9fc7aa;
+    color: #fff;
+}
+button{
+    cursor: pointer;
+}
+img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
+
+/* ----------------------------------- NAV  */
+header {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    transition: 0.5s;
+  }
+  .menu {
+    display: flex;
+    width: 100vw;
+    margin: 0;
+    padding: 10px;
+  }
+.menu li{
+    display: inline-block;
+    margin: 0;
+    width: 100%;
+    list-style: none;
+    position: relative;
+    transition: 0.5s;
+}
+.menu a{
+    text-align: center;
+    display: block;
+    padding: 0 10px;
+    color: #000;
+    text-decoration: none;
+    line-height: 40px;
+    height: 40px;
+    transition: 0.5s;
+}
+
+.menu a:hover{
+    color: #000;
+    background-color: #fff;
+}
+.menu ul{
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    display: none;
+    padding: 0;
+    transition: 0.5s;
+}
+.menu li:hover ul{
+    display: block;
+}
+/* -------------------footer */
+#footer{
+    display: flex;
+    background-color:  #7ea087;
+  padding: 100px 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    justify-content: space-evenly;
+}
+
+.footer h2{
+  letter-spacing: 25px;
+font-weight: 300;
+font-size: larger;
+}
+.footer{
+    font-size: large;
+}
+.footer1 h2{
+    margin-bottom: 50px;
+}
+.footer3 h2{
+    margin-bottom: 50px;
+}
+.footer2 h2{
+    margin-bottom: 50px;
+}
+.footer1 a{
+    padding: 10px;
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+}
+form input{
+    background-color: #fff;
+    border: none;
+    outline: none;
+    margin: 20px 0 40px 0;
+    width: 400px;
+    height: 65px;
+    border-radius: 35px;
+    text-align: center;
+    transition: 0.5s;
+}
+form input:hover{
+    background-color: #ffffff;
+    
+}
+form input ::placeholder{
+    color: #ffffff;
+}
+form button{
+    background:  transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: larger;
+    width: 160px;
+    transition: 0.5s;
+}
+form button:hover{
+color: #9fc7aa;
+
+background-color: #ffffff;
+}
+.icons{
+    margin-top: 30px;
+}
+.icons i{
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+}
+@media (max-width:1020px){
+    #footer{
+    flex-direction: column;
+  align-items:center;
+  justify-content: space-between;
+  }
+  .footer1{
+    margin-bottom: 40px;
+  }
+  .footer2{
+   margin-bottom: 40px;
+ }
+ .cupcake{
+     flex-direction: column;
+     width: 1000px;
+ }
+}
