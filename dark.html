@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery</title>
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/dark-mode.css">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+   </head>
+<body>
+    <!-- HEADER -->
+    <header> 
+        <div id="nav">
+            <ul class="menu">
+                <li><a href="#nav">Главная</a></li>
+                <li><a href="#about-us">Новости</a> </li>
+                <li><a href="#menu">Вкусняшки</a>
+                    <ul>
+                        <li><a href="./vipechka.html">Выпечка</a></li>
+                        <li><a href="./deserti.html">Десерты</a></li>
+                        <li><a href="./poleznoe.html">Полезное</a></li>
+                    </ul>
+                </li>
+                <li><a href="#footer">Контакты</a>
+                    <ul>
+                        <li><a href="#footer">Инстаграм</a></li>
+                        <li><a href="#footer">Вотсап</a></li>
+                        <li><a href="#footer">Позвонить</a></li>
+                    </ul></li>
+                    <li><a href="index.html"><button id="switchMode">Dark mode</button></a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- Main -->
+    <div id="main">
+        <div class="inner-main">
+            <img src="./pic/IMG_0134 — копия.jpeg" alt="">
+            <div class="main-text">
+            <p class="text">ORGANIC BAKERY</p>
+            <p class="text-2">ДОМАШНЯЯ ВЫПЕЧКА</p>
+        </div>
+        </div>
+    </div>
+
+
+    <!-- Предложения -->
+<div id="container">
+    <p>
+        Organic Bakery с радостью постарается воплатить ваши интересные идеи в реальность. Мы открыты к нестандартным индивидуальным заказам с вашими уникальными вкусовыми предпочтениями!
+    </p>
+</div>
+    <!-- About Us -->
+<div id="news">
+    <h1>Новинки!</h1>
+</div>
+<div class="container">
+    <div class="all">
+        <!-- тип поля ввода виде переключателя -->
+        <input checked type="radio" name="respond" id="desktop" />
+        
+        <article id="slider">
+          <input checked type="radio" name="slider" id="switch1" />
+          <input type="radio" name="slider" id="switch2" />
+          <input type="radio" name="slider" id="switch3" />
+          <div id="slides">
+            <div id="overflow">
+              <div class="image">
+                <article><img src="./pic/IMG_8030 2.jpeg"  class="img"/>
+                <h1>Питательная гранола</h1></article>
+                <article><img src="./pic/IMG_0268 2.jpeg" class="img"/>
+                <h1>Сочный десерт Павлова</h1></article>
+                <article><img src="./pic/IMG_0376.jpeg" class="img"/>
+                <h1>Нежнейший творожный пирог</h1></article>
+              </div>
+            </div>
+          </div>
+          <div id="controls">
+            <label for="switch1"></label>
+            <label for="switch2"></label>
+            <label for="switch3"></label>
+          </div>
+          <div id="active">
+            <label for="switch1"></label>
+            <label for="switch2"></label>
+            <label for="switch3"></label>
+          </div>
+        </article>
+      </div>
+    
+</div>
+     
+    <!-- Menu -->
+    <div id="menu">
+        <div class="menu-text">
+            <h1>Вкусняшки</h1>
+        <div class="menu-inner">
+            <div class="vipechka">
+                <a href="./vipechka.html"><img src="./pic/IMG_0015.jpeg" alt="">
+                 <h2> Выпечка</h2></a> 
+            </div>
+            <div class="deserti">
+                <a href="./deserti.html"><img src="./pic/IMG_0249.jpeg" alt="">
+                <h2>Десерты</h2></a> 
+            </div>
+            <div class="polezno">
+                <a href="./poleznoe.html"><img src="./pic/WhatsApp Image 2022-06-14 at 11.40.13.jpeg" alt="">
+                <h2>Полезное</h2></a> 
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <!-- footer -->
+    <div id="footer">
+        <div class="footer1">
+            <h2>Контакты</h2>
+            <p class="footer">+7 777 7777777</p>
+        </div>
+        <div class="footer2">
+            <h2>Свяжитесь с нами</h2>
+            <form>
+                <input type="email" placeholder="Введите вашу почту" required >
+                <br>
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+        <div class="footer3">
+            <h2>Соц сети</h2>
+            <p class="footer">Bakery
+            </p>
+            <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <a href="https://www.instagram.com/p/CbkFtm1KWP-/?igshid=YmMyMTA2M2Y="><i class="fab fa-instagram"></i></a>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-twitter"></i>
+        </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js "></script>
+    <script src="script.js"></script>
+</body>
+</html>
